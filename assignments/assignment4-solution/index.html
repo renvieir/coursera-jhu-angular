@@ -8,6 +8,7 @@
     </head>
     <body ng-app="MenuApp">
         <a ui-sref="home"><h1>Menu App</h1></a>
+        <loading></loading>
         <ui-view></ui-view>
         <!-- Libs -->
         <script src="lib/angular.min.js"></script>
@@ -28,6 +29,10 @@
         <!-- Category Item Component -->
         <script src="src/category-items/category-items.controller.js"></script>
         <script src="src/category-items/items/items.component.js"></script>
+        
+        <!-- Loading Component -->
+        <script src="src/loading/loading.module.js"></script>
+        <script src="src/loading/loading.component.js"></script>
         
     </body>
 </html>

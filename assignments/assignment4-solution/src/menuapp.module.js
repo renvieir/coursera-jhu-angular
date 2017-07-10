@@ -4,6 +4,7 @@
     angular
         .module('MenuApp', [
             'ui.router',
-            'data'
+            'data',
+            'loading'
         ]);
 })();
